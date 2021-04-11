@@ -4,8 +4,13 @@
 #include <SFML/System.hpp>
 #include <cmath>
 #include "config.hpp"
-#include "environment.hpp"
-#include <iostream>
+
+/* Environmental variables */
+bool BLOCK_TOGGLE {true};
+bool ENTITY_TOGGLE {true};
+bool RAY_TOGGLE {false};
+bool SWAP_ALLOW {true};
+bool ENTITY_ALLOW {true};
 
 void setup(sf::RenderWindow &window, UI &ui);
 void handleEvents(sf::RenderWindow &window, UI &ui);
