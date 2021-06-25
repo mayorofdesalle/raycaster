@@ -7,11 +7,17 @@ To play around with raycasting using the *Digital Differential Analysis* algorit
 ## controls
 WASD: Move
 
-Mouse left button: Create/delete entity 1: Change entity mode
+Mouse left button: Create/delete entity
 
-Mouse right button: Place/remove block 2: Change block mode
+1: Change entity mode
+
+Mouse right button: Place/remove block
+
+2: Change block mode
 
 Mouse middle button: Change controlled entity
+
+Spacebar: Toggle rays
 
 ESC: Quit
 
